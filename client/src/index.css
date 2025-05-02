@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Outfit';
+}
+
+@layer base {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+.rich-text {
+    font-size: 16px;
+    color: #6B7280; /* gris clair */
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .rich-text p {
+    margin-bottom: 16px;
+  }
+  
+  .rich-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #374151; /* gris foncé doux */
+    margin: 32px 0 16px;
+  }
+  
+  .rich-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4B5563; /* gris moyen */
+    margin: 24px 0 12px;
+  }
+  
+  .rich-text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4B5563;
+    margin: 20px 0 10px;
+  }
+  
+  .rich-text ul,
+  .rich-text ol {
+    margin-left: 24px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .rich-text ul {
+    list-style-type: disc;
+  }
+  
+  .rich-text ol {
+    list-style-type: decimal;
+  }
+  
+  .rich-text li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .rich-text strong {
+    font-weight: 600;
+    color: #374151;
+  }
+  
